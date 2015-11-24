@@ -1,0 +1,16 @@
+{#
+    download.html
+    ~~~~~~~~~~~~~
+
+    Sidebar template: "download" link.
+
+#}
+<h3>{{ _('Download') }}</h3>
+<ul class="download-menu">
+  <li><a href="{{ pathto('./_downloads/hgflow.pdf', true)|e }}"
+         rel="nofollow">{{ _('PDF') }}</a></li>
+  <li><a href="{{ pathto('./_downloads/hgflow.py', true)|e }}"
+         rel="nofollow">{{ _('hgflow.py') }}</a></li>
+  <li><a href="{{ pathto('./_downloads/gitflow.tgz', true)|e }}"
+         rel="nofollow">{{ _('gitflow.tgz') }}</a></li>
+</ul>

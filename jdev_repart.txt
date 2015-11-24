@@ -1,0 +1,17 @@
+Les bases
+
+presentation dvcs de base 30min 
+TP init/clone/commit/merge/update/status/serve 30 min
+TP installation d'hg flow et initialisation des flows 30 minutes
+
+pause
+
+presentation des flows 30 min
+TP mini-projets calculette entre binomes 60 min
+
+Bloque le 2 toute la journée pour répétition
+
+
+
+
+

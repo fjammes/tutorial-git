@@ -1,0 +1,49 @@
+=========================
+JDev 2013 - Atelier T4.A1
+=========================
+
+Gérer son workflow de développement avec un DVCS
+************************************************
+
+
+L'archive ``T4A1_DVCS.zip`` contient les dossiers et fichiers suivants :
+
+::
+
+  T4A1_DVCS
+  ├── README
+  ├── bases_dvcs
+  │   └── index.html
+  ├── tp_dvcs
+  │   └── index.html
+  ├── tp_hgflow
+  │   └── index.html
+  └── workflows.odp  
+
+bases_dvcs
+----------
+
+Introduction aux DVCS : lire avec son navigateur préféré à partir du point d'entrée ``bases_dvcs/index.html``.
+
+
+tp_dvcs
+-------
+
+Le TP d'introduction aux DVCS avec l'outil Mercurial : ``tp_dvcs/index.html``.
+
+
+workflows
+---------
+
+La présentation : ``workflows.odp``, au format [Libre/Open]Office.
+
+
+tp_hgflow
+---------
+
+Le TP d'introduction à la gestion de son workflow avec un DVCS avec l'outil ``hgflow`` : ``tp_hgflow/index.html``.
+
+La version PDF et une version de l'outil ``hgflow`` sont fournis dans la documentation.
+
+
+

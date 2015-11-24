@@ -1,0 +1,128 @@
+.slides > article {
+    background-image:linear-gradient( #D8EEFC, white 80%);
+}
+
+ul.simple > li > ul {
+  /*color: red;*/
+  font-size: 75%;
+}
+
+.center {
+  text-align: center;
+}
+
+#merci h2 {
+  /*color: red;*/
+  text-align: center;
+  margin-top: 200px;
+}
+
+.slide-no {
+  text-align: center;
+  font-size: 50%;
+  position: absolute;
+  bottom: 1%;
+  right: 50%;
+}
+
+.brown {
+  color: brown;
+}
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.barre {
+  font-weight: bold;
+  text-decoration: line-through;
+}
+
+.small {
+  font-size: 75%;
+}
+
+.slide pre {
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+p.small > div {
+  font-size: 75%;
+}
+
+div.figure.align-center {
+  margin-top: 50px;
+}
+
+ul.small {
+  margin-top: 0px;
+}
+
+ul.small > li {
+  font-size: 75%;
+  margin-bottom: 0em;
+}
+
+div.admonition.note {
+  display: none;
+}
+
+/* Slide de titre */
+#atelier-dvcs p.small {
+  text-align: right;
+}
+
+#atelier-dvcs img.align-center {
+  margin-top: 15px;
+}
+
+img.fill {
+  opacity: 0.3;
+}
+
+#les-branches ul.simple {
+  color: black;
+}
+
+#la-branche-principale-de-developpement ul.simple {
+  color: black;
+}
+#id2 ul.simple {
+  color: black;
+}
+
+#des-branches-et-des-workflows ul.simple {
+  color: black;
+}
+
+#l-atelier  img.align-right {
+  margin-top: 50px;
+}
+
+#preambule ul.small.simple {
+  margin-top: 100px;
+}
+
+#preambule li:first-child {
+  margin-bottom: 25px;
+}
+
+#preambule li:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+img.align-right {
+  margin-left: 0em;
+}
+
+div.highlight {
+  background: none;
+}

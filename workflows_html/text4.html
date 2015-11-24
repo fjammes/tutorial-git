@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+     "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+<head>
+  <meta HTTP-EQUIV=CONTENT-TYPE CONTENT="text/html; charset=utf-8">
+  <title>Diapo 5</title>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" link="#000080" vlink="#0000CC" alink="#000080">
+<center>
+<a href="text0.html">Première page</a> <a href="text3.html">Précédent</a> <a href="text5.html">Suivant</a> <a href="text20.html">Dernière page</a> <a href="workflows.html">Résumé</a> <a href="img4.html">Images</a></center><br>
+<h1 style="direction:ltr;">Résoudre les conflits</h1>
+<ul><li style="direction:ltr;"><h2>Parfois au merge, on a un message de conflit</h2></li>
+</ul><h2 style="direction:ltr;"><font color="#23B8DC"> warning: conflicts during merge.</font>
+<h2 style="direction:ltr;"><font color="#23B8DC"> merging test.txt incomplete! (edit conflicts, then use 'hg resolve --mark')</font>
+<ul><li style="direction:ltr;"><h2>Editer le fichier test.txt pour ne laisser que les lignes qui vous conviennent</h2></li>
+</ul><h2 style="direction:ltr;"> <font color="#33CC66">&lt;&lt;&lt;&lt;&lt;&lt;&lt; local</font>
+<h2 style="direction:ltr;"><font color="#33CC66"> titi</font>
+<h2 style="direction:ltr;"><font color="#33CC66"> =======</font>
+<h2 style="direction:ltr;"><font color="#33CC66"> toto</font>
+<h2 style="direction:ltr;"><font color="#33CC66"> &gt;&gt;&gt;&gt;&gt;&gt;&gt; other</font>
+<ul><li style="direction:ltr;"><h2>Devient simplement</h2></li>
+</ul><h2 style="direction:ltr;"><font color="#33CC66"> toto</font>
+<ul><li style="direction:ltr;"><h2>On supprime la version originale</h2></li>
+</ul><h2 style="direction:ltr;"><font color="#33CC66"> $rm -f test.txt.orig</font>
+<ul><li style="direction:ltr;"><h2>On résoud le conflit</h2></li>
+</ul><h2 style="direction:ltr;"><font color="#33CC66"> $hg resolve test.txt –mark</font>
+<ul><li style="direction:ltr;"><h2>On refait le merge et le commit</h2></li>
+</ul></body>
+</html>
